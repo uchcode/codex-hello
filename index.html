@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>Hello</title>
+</head>
+<body>
+    <button id="helloButton">表示</button>
+    <p id="message"></p>
+
+    <script>
+        document.getElementById('helloButton').addEventListener('click', function() {
+            document.getElementById('message').textContent = 'こんにちは';
+        });
+    </script>
+</body>
+</html>
